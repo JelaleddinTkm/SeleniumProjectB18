@@ -4,6 +4,8 @@ public class Class_Notes {
 
     /*
 
+    CLASS NOTES-3
+
     JULY 7TH, TUESDAY
 
 TODAY'S SCHEDULE
