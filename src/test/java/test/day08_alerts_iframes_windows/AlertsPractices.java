@@ -20,7 +20,7 @@ public class AlertsPractices {
     //2. Go to website: http://practice.cybertekschool.com/javascript_alerts
     //3. Click to “Click for JS Alert” button
     //4. Click to OK button from the alert
-    //5. V erify “Y ou successfuly clicked an alert” text is displayed.
+    //5. Verify “You successfully clicked an alert” text is displayed.
 
 
     WebDriver driver;
