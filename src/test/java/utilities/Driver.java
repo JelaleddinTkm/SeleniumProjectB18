@@ -34,9 +34,10 @@ public class Driver {
         // we use public access modifier, bec we will call it by its name
 
         if(driver == null) {
+
             String browser =  ConfigurationReader.getProperty("browser");
 
-            switch (browser) {
+            switch ( browser.toLowerCase() ) {
 
                 case "chrome":
                     WebDriverManager.chromedriver().setup();

@@ -83,6 +83,7 @@ public class ExcelUtil {
         return data;
     }
 
+
     public List<String> getColumnsNames() {
         List<String> columns = new ArrayList<>();
 
@@ -91,6 +92,7 @@ public class ExcelUtil {
         }
         return columns;
     }
+
 
     public void setCellData(String value, int rowNum, int colNum) {
         Cell cell;
@@ -114,6 +116,7 @@ public class ExcelUtil {
             e.printStackTrace();
         }
     }
+
 
     public void setCellData(String value, String columnName, int row) {
         int column = getColumnsNames().indexOf(columnName);
